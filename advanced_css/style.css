@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.float-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin-right: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #CFF; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFF; 
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+div > p {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: green;
+}
+
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
