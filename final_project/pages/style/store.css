@@ -1,0 +1,40 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
